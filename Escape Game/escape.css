@@ -46,3 +46,11 @@ button:hover {
   width: 60%; 
   height: 90%;
 }
+
+.link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center; /* If you want to center the link */
+}
