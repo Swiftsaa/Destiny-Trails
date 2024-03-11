@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(186,223,245);
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(4,36,85);
+}
+
+button {
+    background-color: rgb(82,124,171); 
+    border: none;
+    border-radius: 5px;
+    color: rgb(186,223,245);
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+  background-color: rgb(186,223,245); 
+  color: rgb(82,124,171);
+  box-shadow: 0 0 5px 5px rgb(186,223,245);
+
+}
+
+#story {
+  box-shadow: 0 0 5px 5px rgb(10, 10, 53);
+  border: 1px;
+  padding: 20px;
+  background-color: rgb(82,124,171);
+}
