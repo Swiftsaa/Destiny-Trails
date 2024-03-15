@@ -1,7 +1,14 @@
+/* .root { 
+    blue: #131166;
+    purple: #524574;
+    palette-white: #F7EBFF;
+    turquoise: #00C8A1;
+} fix this
+ */
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    color: rgb(186,223,245);
+    color: #00C8A1;
     background-color: rgb(4,36,85);
     width: 100%; 
     min-height: 100vh; 
