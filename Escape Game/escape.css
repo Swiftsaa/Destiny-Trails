@@ -4,6 +4,7 @@
 }
 
 body {
+  margin-top: 5rem;
   font-family: KodeMono;
   text-align: center;
   color: #F7EBFF;
@@ -42,7 +43,8 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 50vh;
+  margin-bottom: 5rem;
 }
 
 a {
