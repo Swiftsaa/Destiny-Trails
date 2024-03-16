@@ -1,42 +1,42 @@
-.root { 
-    --blue: #131166;
-    --purple: #524574;
-    --palette-white: #F7EBFF;
-} 
+@font-face {
+    font-family: KodeMono;
+    src: url(KodeMono.ttf);
+}
+
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: KodeMono;
     text-align: center;
-    color: var(--palette-white);
-    background-color: rgb(4,36,85);
+    color: #F7EBFF;
+    background: linear-gradient(#131166, #004092, #0069AF);
     width: 100%; 
     min-height: 100vh; 
-    display: grid; 
 }
   
 button {
-    background-color: rgb(82,124,171); 
+    color: inherit;
+    background-color: #0090BC;
     border: none;
     border-radius: 5px;
-    color: rgb(186,223,245);
     padding: 15px 32px;
     margin: 10px;
     text-align: center;
-    font-size: 16px;
+    font-size: inherit;
     font-family: inherit;
     cursor: pointer;
     transition: .5s;
 }
   
 button:hover {
-    background-color: rgb(186,223,245); 
-    color: rgb(82,124,171);
-    box-shadow: 0 0 5px 5px rgb(186,223,245);
+    background-color: #00B7BF;
+    box-shadow: 0 0 5px #00B7BF;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+    height: 90vh;
 }
 
 .link {
@@ -52,5 +52,5 @@ a {
 }
 
 a:visited {
-    color: grey;
+    color: inherit;
 }

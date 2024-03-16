@@ -1,9 +1,50 @@
-
-
-.jakeLines {
-    color: blue;
+@font-face {
+font-family: KodeMono;
+src: url(/KodeMono.ttf);
 }
 
-.sisterLines {
-    color: green;
+body {
+font-family: KodeMono;
+text-align: center;
+color: #F7EBFF;
+background: linear-gradient(#131166, #004092, #0069AF);
+width: 100%; 
+min-height: 100vh; 
+}
+
+button {
+color: inherit;
+background-color: #0090BC;
+border: none;
+border-radius: 5px;
+padding: 15px 32px;
+margin: 10px;
+text-align: center;
+font-size: inherit;
+font-family: inherit;
+cursor: pointer;
+transition: .5s;
+}
+
+button:hover {
+background-color: #00B7BF;
+box-shadow: 0 0 5px #00B7BF;
+}
+
+#story {
+margin: 0 10%;
+padding: 50px;
+background-color: #0090bc34;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 50vh;
+}
+
+a {
+color: inherit;
 }
