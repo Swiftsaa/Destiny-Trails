@@ -1,14 +1,12 @@
-/* .root { 
-    blue: #131166;
-    purple: #524574;
-    palette-white: #F7EBFF;
-    turquoise: #00C8A1;
-} fix this
- */
+.root { 
+    --blue: #131166;
+    --purple: #524574;
+    --palette-white: #F7EBFF;
+} 
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    color: #00C8A1;
+    color: var(--palette-white);
     background-color: rgb(4,36,85);
     width: 100%; 
     min-height: 100vh; 
@@ -36,7 +34,9 @@ button:hover {
 }
 
 .container {
-    place-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .link {
@@ -44,7 +44,7 @@ button:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    text-align: center; /* If you want to center the link */
+    text-align: center; 
 }  
 
 a {
